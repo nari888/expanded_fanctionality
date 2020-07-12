@@ -58,8 +58,30 @@ public class Report {
     @Column(name = "created_at", nullable = false)
     private Timestamp created_at;
 
-    @Column(name = "update_at", nullable = false)
+    @Column(name = "updated_at", nullable = false)
     private Timestamp updated_at;
+
+    @Column(name = "report_attendance_time", nullable = false)
+    private String report_attendance_time;
+
+    @Column(name = "report_leaving_time", nullable = false)
+    private String report_leaving_time;
+
+    public String getReport_attendance_time() {
+        return report_attendance_time;
+    }
+
+    public void setReport_attendance_time(String report_attendance_time) {
+        this.report_attendance_time = report_attendance_time;
+    }
+
+    public String getReport_leaving_time() {
+        return report_leaving_time;
+    }
+
+    public void setReport_leaving_time(String report_leaving_time) {
+        this.report_leaving_time = report_leaving_time;
+    }
 
     public Integer getId() {
         return id;

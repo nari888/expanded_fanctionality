@@ -24,6 +24,14 @@
                             </td>
                         </tr>
                         <tr>
+                            <th>出勤時刻</th>
+                            <td><c:out value="${report.report_attendance_time}" /></td>
+                        </tr>
+                        <tr>
+                            <th>退勤時刻</th>
+                            <td><c:out value="${report_report_leaving_tome}" /></td>
+                        </tr>
+                        <tr>
                             <th>登録日時</th>
                             <td>
                                 <fmt:formatDate value="${report.created_at}" pattern="yyyy-MM-dd HH:mm:ss" />

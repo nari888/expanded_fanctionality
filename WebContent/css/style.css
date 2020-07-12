@@ -2,11 +2,11 @@
 
 body {
     color: #333333;
-    font-family: "Hiragino Kaku Gothic Pro",Meirixyo,"MS PGothic",Helvetica,Arial,sans-serif;
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
 }
 
 #header {
-    width: 100%
+    width: 100%;
     height: 70px;
     background-color: #333333;
 }
@@ -146,6 +146,14 @@ table#report_list .report_name {
 }
 
 table#report_list .report_date {
+    width: 20%;
+}
+
+table#report_list .report_attendance_time {
+    width: 20%;
+}
+
+table#report_list .report_leaving_time {
     width: 20%;
 }
 
